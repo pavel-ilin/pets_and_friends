@@ -77,7 +77,7 @@ export default class App extends Component {
 
     saveGame = () => {
         this.pauseGame()
-        fetch(`http://localhost:3000/adopt_pets/${this.state.adoptPetID}`, {
+        fetch(`https://pets-and-friends.herokuapp.com/${this.state.adoptPetID}`, {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
@@ -98,7 +98,7 @@ export default class App extends Component {
         this.setState({
             intervalId: intervalId
         })
-        fetch(`http://localhost:3000/users/${this.props.userID}`, {
+        fetch(`https://pets-and-friends.herokuapp.com/users/${this.props.userID}`, {
           headers: {
             "Authorization": localStorage.token
           }

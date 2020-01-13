@@ -17,10 +17,9 @@ export default class Login extends Component {
       })
     }
 
-
     submitClick = event => {
       event.preventDefault()
-      fetch("http://localhost:3000/login", {
+      fetch("https://pets-and-friends.herokuapp.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -32,6 +31,7 @@ export default class Login extends Component {
       })
       .then(r => r.json())
       .then(resp => {
+        console.log(resp)
         if (resp.errors) {
           localStorage.clear()
           this.setState({

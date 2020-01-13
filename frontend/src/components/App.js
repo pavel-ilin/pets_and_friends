@@ -11,7 +11,7 @@ export default class App extends Component {
         loggedInUserId: localStorage.userId
     }
 
-  
+
     setToken = event => {
       localStorage.token = event.token
       localStorage.userId = event.user_id

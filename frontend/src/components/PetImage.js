@@ -7,7 +7,7 @@ export default class PetImage extends Component {
     }
 
     componentDidMount(){
-        fetch(`http://localhost:3000/pets/${this.props.pet.id}`)
+        fetch(`https://pets-and-friends.herokuapp.com/pets/${this.props.pet.id}`)
             .then(r => r.json())
             .then(resObj => {
                 this.setState({
