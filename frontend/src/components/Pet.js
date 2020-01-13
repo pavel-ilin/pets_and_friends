@@ -77,7 +77,7 @@ export default class App extends Component {
 
     saveGame = () => {
         this.pauseGame()
-        fetch(`https://pets-and-friends.herokuapp.com/${this.state.adoptPetID}`, {
+        fetch(`https://pets-and-friends.herokuapp.com/adopt_pets/${this.state.adoptPetID}`, {
             headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
