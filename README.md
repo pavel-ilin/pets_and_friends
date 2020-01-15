@@ -16,7 +16,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
 
 # Installation
   ### Prerequisites
-  Smart App is built using React, Ruby, Ruby on Rails & PostgresQL. Make sure you have the latest versions of all four components installed before cloning this repo. You can find their official installation guides below:
+  Pets and Friends app is built using React, Ruby, Ruby on Rails & PostgresQL. Make sure you have the latest versions of all four components installed before cloning this repo. You can find their official installation guides below:
   - [React](https://reactjs.org/docs/getting-started.html)
   - [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
   - [Ruby On Rails](https://guides.rubyonrails.org/v5.0/getting_started.html)
