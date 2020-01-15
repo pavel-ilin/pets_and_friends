@@ -73,7 +73,7 @@ export default class Dashboard extends Component {
 
     givePetUp = (pet) => {
         alert("Are you sure you want to give me up? :(")
-        fetch(`http://localhost:3000/${this.props.userID}`, {
+        fetch(`http://localhost:3000/users/${this.props.userID}`, {
           headers: {
             "Authorization": localStorage.token
           }
@@ -89,7 +89,7 @@ export default class Dashboard extends Component {
     }
 
     unadoptPet = (pet) => {
-        fetch(`http://localhost:3000/${this.state.adoptPetID}`, {
+        fetch(`http://localhost:3000/adopt_pets/${this.state.adoptPetID}`, {
             method: "DELETE"
         })
         .then(() => {
