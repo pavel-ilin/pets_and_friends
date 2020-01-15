@@ -69,7 +69,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
 
 &nbsp;
 
-   **If you have recieved any errors during this process, feel free to contact me so I can help you and update this readme accordingly**
+   **If you have recieved any errors during this process, feel free to [contact me](https://www.linkedin.com/in/pavel-ilin) so I can help you and update this readme accordingly**
  
 &nbsp;
 
