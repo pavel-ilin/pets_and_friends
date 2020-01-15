@@ -44,7 +44,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
   - Clone the most recent branch from The Backend Repository
   - Run `rvm use Ruby-2.6.1` to make sure you are using the correct version of Ruby 
   - Run `bundle install` to install all gems/dependancies required for SmartApp 
-  - Run `rails db:create mod5-fp` to create a local PostgresQL database
+  - Run `rails db:create` to create a local PostgresQL database
   - Run `rails db:migrate` to create the tables/columns required for proper SmartApp functionality
   - Run `rails db:seed` to populate the columns with rows of "real" data
   - Create a file called `.env` in the backend directory (/root/backend/) and add `HMAC_SECRET = "<insert secret string here>"` to the file
@@ -62,8 +62,8 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
   - Run `npm start` **in a separate bash terminal window** to start the frontend server on port 3000
   
   Third:
-  - You can now access Frontend portion of SmartApp by visiting: `http://localhost:3000` 
-  - You can now access Backend portion of SmartApp by visiting: `http://localhost:3001` 
+  - You can now access Frontend portion of the app by visiting: `http://localhost:3000` 
+  - You can now access Backend portion of the app by visiting: `http://localhost:3001` 
   
   Thats it! Have fun breaking/fixing/doing whatever you want with SmartApp. The world is your oyster!
 
