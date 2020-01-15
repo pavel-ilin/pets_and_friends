@@ -29,13 +29,10 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
   - Run `npm install` in your bash-enabled terminal to make sure all dependancies are installed
   
   You can run `npm start` but you will not be able to login and use the application correctly. 
-  
-  **The Backend Repository is a required component of SmartApp**
-  
+    
 &nbsp;  
 
   ### Backend
-  The Backend Repository can be found [here](https://github.com/trunkslamchest/mod5_project_backend)
   
   #### Windows Installation
   - Add the line `gem 'wdm', '>= 0.1.0'` to Gemfile before running `bundle install`
@@ -50,7 +47,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
   - Run `rails db:create mod5-fp` to create a local PostgresQL database
   - Run `rails db:migrate` to create the tables/columns required for proper SmartApp functionality
   - Run `rails db:seed` to populate the columns with rows of "real" data
-  - Create a file called `.env` in the backend directory (/root/backend/) and add `HMAC_SECRET = "<insert secret string here>"` and `MOD5-FP-BACKEND_DATABASE_PASSWORD = "hockey"` to the file
+  - Create a file called `.env` in the backend directory (/root/backend/) and add `HMAC_SECRET = "<insert secret string here>"` to the file
 
 &nbsp;
   ### First Start
@@ -73,11 +70,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
 &nbsp;
 
    **If you have recieved any errors during this process, feel free to contact me so I can help you and update this readme accordingly**
-  
-&nbsp;
-  
-<a href="https://github.com/trunkslamchest/mod5_project_frontend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
-
+ 
 &nbsp;
 
 2019 (c) Ethan Fournier, Pavel Ilin
