@@ -1,6 +1,6 @@
 # Pets and Friends
 
-This app was made in parthership with [Ethan Fournier](https://www.linkedin.com/in/ethan-fournier-452268192/). This application was designed for people who like tamagotchi game. Main purpose of the game is to show empathy and take care of the pets user adop.
+This app was made in parthership with [Ethan Fournier](@EthanJF). This application was designed for people who like tamagotchi game. Main purpose of the game is to show empathy and take care of the pets user adop.
 
 ## Demo
 Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
