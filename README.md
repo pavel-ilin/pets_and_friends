@@ -51,21 +51,21 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
 
 &nbsp;
   ### First Start
-   If you have not received any errors/resolve any errors you have encountered during Frontend/Backend Installation, you are ready to start SmartApp for the first time.
+   If you have not received any errors/resolve any errors you have encountered during Frontend/Backend Installation, you are ready to start Pets and Friends for the first time.
     
   First:
-  - Run `rails s -p 3001` to start the backend server on port 3001. 
+  - Run `rails s` to start the backend server on port 3000. 
   
   The server must run on 3001 as all the fetch requests on the frontend point to port 3001. If you can not or do not want to run the backend server on port 3001, you will need to update all frontend fetch requests accordingly. 
   
   Second:
-  - Run `npm start` **in a separate bash terminal window** to start the frontend server on port 3000
+  - Run `npm start` **in a separate bash terminal window** to start the frontend server on port 3001
   
   Third:
-  - You can now access Frontend portion of the app by visiting: `http://localhost:3000` 
-  - You can now access Backend portion of the app by visiting: `http://localhost:3001` 
+  - You can now access Frontend portion of the app by visiting: `http://localhost:3001` 
+  - You can now access Backend portion of the app by visiting: `http://localhost:3000` 
   
-  Thats it! Have fun breaking/fixing/doing whatever you want with SmartApp. The world is your oyster!
+  Thats it! Have fun breaking/fixing/doing whatever you want with Pets and Friends. The world is your oyster!
 
 &nbsp;
 
