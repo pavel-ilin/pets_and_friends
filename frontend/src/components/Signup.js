@@ -17,7 +17,7 @@ class Signup extends React.Component {
   }
 
   loginAction = () => {
-    fetch("https://pets-and-friends.herokuapp.com/login", {
+    fetch("http://localhost:3000/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -44,7 +44,7 @@ class Signup extends React.Component {
 
   submitClick = event => {
     event.preventDefault()
-    fetch("https://pets-and-friends.herokuapp.com/users", {
+    fetch("http://localhost:3000/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

@@ -15,14 +15,14 @@ export default class Dashboard extends Component {
     }
 
     componentDidMount(){
-        fetch("https://pets-and-friends.herokuapp.com/pets")
+        fetch("http://localhost:3000/pets")
         .then(r => r.json())
         .then(resObj => {
             this.setState({
                 allPets: resObj
             })
 
-            fetch(`https://pets-and-friends.herokuapp.com/users/${this.props.userID}`, {
+            fetch(`http://localhost:3000/users/${this.props.userID}`, {
               headers: {
                 "Authorization": localStorage.token
               }
@@ -46,7 +46,7 @@ export default class Dashboard extends Component {
     adoptAPet = (pet) => {
         // debugger
         if(!this.state.myPets.find(element => element.id === pet.id)){
-            fetch("https://pets-and-friends.herokuapp.com/adopt_pets", {
+            fetch("http://localhost:3000/adopt_pets", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -73,7 +73,7 @@ export default class Dashboard extends Component {
 
     givePetUp = (pet) => {
         alert("Are you sure you want to give me up? :(")
-        fetch(`https://pets-and-friends.herokuapp.com/${this.props.userID}`, {
+        fetch(`http://localhost:3000/${this.props.userID}`, {
           headers: {
             "Authorization": localStorage.token
           }
@@ -89,7 +89,7 @@ export default class Dashboard extends Component {
     }
 
     unadoptPet = (pet) => {
-        fetch(`https://pets-and-friends.herokuapp.com/${this.state.adoptPetID}`, {
+        fetch(`http://localhost:3000/${this.state.adoptPetID}`, {
             method: "DELETE"
         })
         .then(() => {
