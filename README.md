@@ -56,7 +56,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
   First:
   - Run `rails s` to start the backend server on port 3000. 
   
-  The server must run on 3001 as all the fetch requests on the frontend point to port 3001. If you can not or do not want to run the backend server on port 3001, you will need to update all frontend fetch requests accordingly. 
+  The server must run on 3000 as all the fetch requests on the frontend point to port 3000. If you can not or do not want to run the backend server on port 3000, you will need to update all frontend fetch requests accordingly. 
   
   Second:
   - Run `npm start` **in a separate bash terminal window** to start the frontend server on port 3001
@@ -65,7 +65,7 @@ Check out [Pets and Friends](https://naughty-einstein-119d55.netlify.com) app
   - You can now access Frontend portion of the app by visiting: `http://localhost:3001` 
   - You can now access Backend portion of the app by visiting: `http://localhost:3000` 
   
-  Thats it! Have fun breaking/fixing/doing whatever you want with Pets and Friends. The world is your oyster!
+  Thats it! Have fun breaking/fixing/doing whatever you want with Pets and Friends.
 
 &nbsp;
 
