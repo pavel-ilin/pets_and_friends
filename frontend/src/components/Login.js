@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 
 export default class Login extends Component {
 
     state = {
         username: "",
         password: "",
-        userData: [],
+        dataLoaded: false,
         errors: []
     }
 
@@ -54,12 +54,14 @@ export default class Login extends Component {
                 <h2>Login</h2>
                 <form>
                     <label>Username: </label>
-                    <input onChange={this.onChange} autoComplete="username" name="username" type="text"/>
+                    <input onChange={this.onChange} autoComplete="username" name="username" type="text" value={this.state.username}/>
                     <br />
                     <label>Password: </label>
-                    <input onChange={this.onChange} autoComplete="password" name="password" type="password"/>
+                    <input onChange={this.onChange} autoComplete="password" name="password" type="password" value={this.state.password}/>
                     <br />
-                    <button onClick={this.submitClick}>  {this.state.password === '' ? <Link to='/welcome'>Submit</Link> : <Link to='/dashboard'>Submit</Link>}</button>
+                    <button onClick={this.submitClick}>Login</button>
+                    {this.state.errors[1] ? < Redirect to='/' /> : null}
+                    {this.state.dataLoaded ? < Redirect to='/dashboard' /> : null }
                 </form>
             </div>
         )
